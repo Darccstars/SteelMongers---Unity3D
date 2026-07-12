@@ -66,10 +66,6 @@ public class MainMenu : MonoBehaviour
 
     public Vector3 ogCreditsContentsVec,selectMenuButtonCreditsOpenVec;
 
-    [Header("Quality")]
-    public int qualityIndex;
-    public Text qualityText;
-
     /*[System.Serializable]
     public struct mainMenuButton
     {
@@ -121,8 +117,6 @@ public class MainMenu : MonoBehaviour
     void LateUpdate()
     {
         Credits();
-        qualityText.text = QualitySettings.names[qualityIndex];
-        
         if(isBlinkAlertLight)
         {
             if(blinkOnOff)
@@ -336,12 +330,9 @@ public class MainMenu : MonoBehaviour
                     //SceneManager.LoadScene(newgameString);
                 break;
                 case 1:
-                    QualityButton();
-                break;
-                case 2:
                     isOpenCredits = !isOpenCredits;
                 break;
-                case 3:
+                case 2:
                     Application.Quit();
                 break;
             }
@@ -365,18 +356,5 @@ public class MainMenu : MonoBehaviour
     void PlaySndSFX(AudioClip sfx)
     {
         sfxPlayer.PlayOneShot(sfx);
-    }
-
-    void QualityButton()
-    {
-        if(qualityIndex < QualitySettings.names.Length-1)
-        {
-            qualityIndex++;
-        }
-        else
-        {
-            qualityIndex = 0;
-        }
-        QualitySettings.SetQualityLevel(qualityIndex, true);
     }
 }

@@ -35267,7 +35267,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &1639395662
 MonoBehaviour:
@@ -64655,7 +64655,7 @@ GameObject:
   - component: {fileID: 240260615}
   m_Layer: 9
   m_Name: EnemyBoss
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64704,7 +64704,7 @@ MonoBehaviour:
   isMelee: 0
   aiStoppingRange: 5.44
   rangeToMelee: 7.45
-  hitsToRetreat: 2
+  hitsToRetreat: 5
   isRetreat: 0
   retreatTime: 2
   currentTimeHits: 0

@@ -36,12 +36,11 @@ public class MasterLevel : MonoBehaviour
 
     void Awake()
     {
-       // musicManaging = GameObject.FindObjectOfType<MusicManager>();
+        musicManaging = GameObject.FindObjectOfType<MusicManager>();
     }
     // Start is called before the first frame update
     void Start()
     {
-        musicManaging = GameObject.FindObjectOfType<MusicManager>();
         objectiveOgVec = objectiveText.transform.parent.localPosition;
         spObjectives = GameObject.FindGameObjectWithTag("SpecialObjectives").GetComponent<SpecialObjectives>();
     }

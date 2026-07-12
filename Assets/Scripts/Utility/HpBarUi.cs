@@ -8,7 +8,7 @@ public class HpBarUi : MonoBehaviour
     PlayerPause plyrPause;
     public Transform hpUi;
     public Vector3 ogHpBar,hpBarVec;
-    public HpSystem hpSys,hpSysPlyr;
+    public HpSystem hpSys;
     public Image hpBar;
     public Text hpTxt;
     public float hpLerp;
@@ -17,7 +17,6 @@ public class HpBarUi : MonoBehaviour
     void Start()
     {
         plyrPause = GameObject.FindObjectOfType<PlayerPause>();
-        hpSysPlyr = GameObject.FindGameObjectWithTag("Player").GetComponent<HpSystem>();
         ogHpBar = hpUi.localPosition;
     }
 
@@ -29,7 +28,7 @@ public class HpBarUi : MonoBehaviour
             hpBar.color = Color.red;
         }
 
-        if(plyrPause.isPause || hpSys.isDead || hpSysPlyr.isDead)
+        if(plyrPause.isPause)
         {
             hpUi.localPosition = Vector3.Lerp(hpUi.localPosition,ogHpBar + hpBarVec,Time.unscaledDeltaTime*3);
         }
