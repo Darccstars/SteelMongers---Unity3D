@@ -5,6 +5,7 @@ using UnityEngine;
 public class MovePoint : MonoBehaviour
 {
     public Vector3 vecMove;
+    public float lerp;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +15,6 @@ public class MovePoint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.localPosition = Vector3.MoveTowards(transform.localPosition,vecMove,Time.deltaTime*0.25f);
+        transform.localPosition = Vector3.MoveTowards(transform.localPosition,vecMove,Time.deltaTime*lerp);
     }
 }

@@ -10,12 +10,14 @@ public class SpecialObjectives : MonoBehaviour
     Camera mainCam;
     AudioListener mainCamLis;
     HpSystem hpSys;
+    AudioSource audioPlayer;
 
     public int levelIndex;
 
     [Header("Special Objective One")]
     public bool isAllSwitchesTrue;
     public MovePoint entranceDoor;
+    public AudioClip[] explosionSnds;
     [System.Serializable]
     public struct damagedWall
     {
@@ -33,7 +35,7 @@ public class SpecialObjectives : MonoBehaviour
     public GameObject bossEnemy;
     public Transform bossSpawnLoc;
     [ColorUsage(true, true)]
-    public Color domeColorAlert,ambientColorAlert,domeTopColorAlert;
+    public Color domeColorAlert,ambientColorAlert,ambientBrightColorAlert,domeTopColorAlert;
     public Texture alertTex;
     public MeshRenderer[] domeParts;
     public bool showTex;
@@ -55,6 +57,7 @@ public class SpecialObjectives : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioPlayer = GetComponent<AudioSource>();
         entranceDoor.enabled = false;
         mainCam = Camera.main;
         mainCamLis = Camera.main.GetComponent<AudioListener>();
@@ -128,7 +131,7 @@ public class SpecialObjectives : MonoBehaviour
                 if(!isAllSwitchesTrue)
                 {
                     entranceDoor.enabled = true;
-                    Invoke("BreakWalls",10);
+                    Invoke("BreakWalls",5);
                 }
                 isAllSwitchesTrue = true;
             }
@@ -144,6 +147,8 @@ public class SpecialObjectives : MonoBehaviour
     public void BreakWalls()
     {
         //levelIndex++;
+        audioPlayer.PlayOneShot(explosionSnds[0]);
+        audioPlayer.PlayOneShot(explosionSnds[1]);
         masterLvl.SpecialLevelComplete();
         for(int x = 0;x<damagedWalls.Length;x++)
         {
@@ -169,7 +174,15 @@ public class SpecialObjectives : MonoBehaviour
     {
         if(!hpSys.isDead)
         {
-            RenderSettings.ambientLight = Color.Lerp(RenderSettings.ambientLight,ambientColorAlert,Time.deltaTime*3);
+            if(showTex)
+            {
+                RenderSettings.ambientLight = Color.Lerp(RenderSettings.ambientLight,ambientColorAlert,Time.deltaTime*3);
+            }
+            else
+            {
+                RenderSettings.ambientLight = Color.Lerp(RenderSettings.ambientLight,ambientBrightColorAlert,Time.deltaTime*3);
+            }
+            
             for(int x = 0;x<domeParts.Length;x++)
             {
                 //if(x == 0)

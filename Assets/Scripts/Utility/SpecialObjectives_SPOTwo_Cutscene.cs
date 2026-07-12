@@ -5,6 +5,8 @@ using UnityEngine;
 public class SpecialObjectives_SPOTwo_Cutscene : MonoBehaviour
 {
     //SpecialObjectives spObjectives;
+    AudioSource audioPlayer;
+
     [HideInInspector]
     public Animator animSPO_Two;
     public Camera cinematicCam;
@@ -45,6 +47,7 @@ public class SpecialObjectives_SPOTwo_Cutscene : MonoBehaviour
     void Start()
     {
         animSPO_Two = GetComponent<Animator>();
+        audioPlayer = GetComponent<AudioSource>();
         //cinematicCam = GetComponentInChildren<Camera>();
         //cinematicCam.transform.SetParent(null);
         //spObjectives = GameObject.FindObjectOfType<SpecialObjectives>();
@@ -103,5 +106,10 @@ public class SpecialObjectives_SPOTwo_Cutscene : MonoBehaviour
     {
         shakeDuration = camShakes[shakeIndex].shakeDuration;
         shakeIntensity = camShakes[shakeIndex].shakeIntensity;
+    }
+
+    public void PlaySFX(AudioClip clip)
+    {
+        audioPlayer.PlayOneShot(clip);
     }
 }
