@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 600c83c26dcd5e44e80161ca13a8bb4d
+guid: 67fd0b8aff49a63459436bd9296e7cfb
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - SEQUENCES
+  - Neuropol
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

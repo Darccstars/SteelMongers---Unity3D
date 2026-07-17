@@ -5302,7 +5302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &333479461
 Transform:
   m_ObjectHideFlags: 0
@@ -25894,7 +25894,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &863097461
 Transform:
   m_ObjectHideFlags: 0
@@ -31597,7 +31597,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1064959552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37015,6 +37015,10 @@ PrefabInstance:
     - target: {fileID: 6759692943294864658, guid: d81b09029920cda489699ad83e59e697, type: 3}
       propertyPath: m_Name
       value: EnemyBoss
+      objectReference: {fileID: 0}
+    - target: {fileID: 6759692943294864658, guid: d81b09029920cda489699ad83e59e697, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6759692943294864658, guid: d81b09029920cda489699ad83e59e697, type: 3}
       propertyPath: m_TagString
