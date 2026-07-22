@@ -10,6 +10,7 @@ Game:
 
 Project Portfolio:
 --------------
+To anyone who prefers looking into visuals you may check out from this Behance page.
 
 How to play through Unity's Editor:
 --------------
