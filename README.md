@@ -9,9 +9,9 @@ An archive of my final project for my studies at Raffles University's Diploma in
 
 Screenshots:
 --------------
-<img width="300" src="https://github.com/user-attachments/assets/87b2296a-9cb1-4b20-8bcf-6c40d54bb347" />
-<img width="300" src="https://github.com/user-attachments/assets/44a83bce-ab02-4481-a8f9-8916e303f953" />
-<img width="300" src="https://github.com/user-attachments/assets/d39d78fc-a2ca-44ee-b62a-90d3d02dd094" />
+<img width="200" src="https://github.com/user-attachments/assets/87b2296a-9cb1-4b20-8bcf-6c40d54bb347" />
+<img width="200" src="https://github.com/user-attachments/assets/44a83bce-ab02-4481-a8f9-8916e303f953" />
+<img width="200" src="https://github.com/user-attachments/assets/d39d78fc-a2ca-44ee-b62a-90d3d02dd094" />
 
 
 Project Portfolio:
