@@ -3,10 +3,16 @@
 Formerly developed under the name, JJ&Son.
 
 An archive of my final project for my studies at Raffles University's Diploma in Digital Game Art for showcasing purposes.
+* https://raffles-university.edu.my/portfolio/steel-mongers/
 
-Game:
---------------
 [<img width="300" src="https://github.com/user-attachments/assets/8e0637f8-b7aa-4cb9-8ef1-099162744a9f">](https://jeremiah67.itch.io/steelmongers)
+
+Screenshots:
+--------------
+<img width="300" src="https://github.com/user-attachments/assets/87b2296a-9cb1-4b20-8bcf-6c40d54bb347" />
+<img width="300" src="https://github.com/user-attachments/assets/44a83bce-ab02-4481-a8f9-8916e303f953" />
+<img width="300" src="https://github.com/user-attachments/assets/d39d78fc-a2ca-44ee-b62a-90d3d02dd094" />
+
 
 Project Portfolio:
 --------------
@@ -14,6 +20,8 @@ To anyone who prefers looking into visuals you may check out from this Behance p
 
 How to play through Unity's Editor:
 --------------
+- Recommended version: 2021.3.33f
+  - This is because new unity updates are showing log errors that were not present in earlier versions for some reason.
 * Open the "MainMenu" scene, this can be accessed through Assets/Scenes/Levels within the project's file path.
 
 Controls:
@@ -56,6 +64,14 @@ Controls:
   - Button A (Shoot)
 </details>
 
+Bugs:
+--------------
+* Boosting will play a particle animation and an associated sound effect regardless of what state Enum is in (i.e when Enum is not moving / when Enum plays a hard landing animation).
+- Enum's Inverse Kinematics problems
+  - Enum's right arm will either go through himself at certain angles.
+  - Enum's right arm will move weirdly when shooting at a certain angle.
+* P's neck will look up higher everytime Enum gets closer to it.
+
 Credits
 --------------
 * Music: [Fesliyan Studios](https://www.fesliyanstudios.com/)
@@ -69,3 +85,7 @@ Tools used:
 * Models created through [Blender](https://www.blender.org/)
 * [Mixamo.com](https://www.mixamo.com/) for sample animations
 * Programmed using [VSCode](https://code.visualstudio.com/)
+
+Contact
+--------------
+If you need a Unity C# programmer or a Blender3D modeller, feel free to contact me at darccstars@protonmail.com!
