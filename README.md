@@ -21,7 +21,7 @@ To anyone who prefers looking into visuals you may check out from this Behance p
 How to play through Unity's Editor:
 --------------
 - Recommended version: 2021.3.33f
-  - This is because new unity updates are showing log errors that were not present in earlier versions for some reason.
+  - This is because new versions of Unity are showing log errors that were not present in earlier versions for some reason.
 * Open the "MainMenu" scene, this can be accessed through Assets/Scenes/Levels within the project's file path.
 
 Controls:
