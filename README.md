@@ -74,7 +74,7 @@ Bugs:
   - Enum's right arm will either go through himself at certain angles.
   - Enum's right arm will move weirdly when shooting at a certain angle.
 * P's neck will look up higher everytime Enum gets closer to it.
-* There are frame rate spikes from time to time, my guess was that it maybe caused from the 3D HUD Canvas since it plays better without it. My solution is to either have parts of the UIs put into smaller canvases or reduce the resolution of the current HUD.
+* There are frame rate spikes from time to time, my guess was its either the 3D Canvas or the reflection probes.
 
 Credits
 --------------
