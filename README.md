@@ -89,6 +89,7 @@ Tools used:
 * Models created through [Blender](https://www.blender.org/)
 * [Mixamo.com](https://www.mixamo.com/) for sample animations
 * Programmed using [VSCode](https://code.visualstudio.com/)
+* [GIMP](https://www.gimp.org/) for image manipulation
 
 Contact
 --------------
