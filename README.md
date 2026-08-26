@@ -10,6 +10,7 @@ An archive of my final project for my studies at Raffles University's Diploma in
 Screenshots:
 --------------
 Gameplay: https://youtu.be/zCvGOXacDqY
+
 <img width="200" src="https://github.com/user-attachments/assets/87b2296a-9cb1-4b20-8bcf-6c40d54bb347" />
 <img width="200" src="https://github.com/user-attachments/assets/44a83bce-ab02-4481-a8f9-8916e303f953" />
 <img width="200" src="https://github.com/user-attachments/assets/d39d78fc-a2ca-44ee-b62a-90d3d02dd094" />
@@ -73,7 +74,7 @@ Bugs:
   - Enum's right arm will either go through himself at certain angles.
   - Enum's right arm will move weirdly when shooting at a certain angle.
 * P's neck will look up higher everytime Enum gets closer to it.
-* There are frame rate spikes from time to time, my guess was that it maybe caused from the 3D HUD Canvas since it plays better without it. My solution is to either have parts of the UIs put into smaller canvases or reduce the resolution of the current HUD.
+* There are frame rate spikes from time to time, my guess was its either the 3D Canvas or the reflection probes.
 
 Credits
 --------------
@@ -88,6 +89,7 @@ Tools used:
 * Models created through [Blender](https://www.blender.org/)
 * [Mixamo.com](https://www.mixamo.com/) for sample animations
 * Programmed using [VSCode](https://code.visualstudio.com/)
+* [GIMP](https://www.gimp.org/) for image manipulation
 
 Contact
 --------------
