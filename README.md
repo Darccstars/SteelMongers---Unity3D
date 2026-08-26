@@ -9,7 +9,10 @@ An archive of my final project for my studies at Raffles University's Diploma in
 
 Screenshots:
 --------------
+[<img src="https://img.youtube.com/vi/APOPm01BVrk/hqdefault.jpg" width="600" height="300"
+/>](https://www.youtube.com/embed/APOPm01BVrk)
 Gameplay: https://youtu.be/zCvGOXacDqY
+
 
 <img width="200" src="https://github.com/user-attachments/assets/87b2296a-9cb1-4b20-8bcf-6c40d54bb347" />
 <img width="200" src="https://github.com/user-attachments/assets/44a83bce-ab02-4481-a8f9-8916e303f953" />
@@ -23,8 +26,10 @@ To anyone who prefers looking into visuals you may check out from this Behance p
 
 How to play through Unity's Editor:
 --------------
-- Recommended version: 2021.3.33f
+- Original version: 2021.3.33f
+- Recommended version: Any Unity software above v2021.3 for security reasons.
   - This is because new versions of Unity are showing log errors that were not present in earlier versions for some reason.
+  - It is discovered that they were security exploits found in the v2021.3 versions.
 * Open the "MainMenu" scene, this can be accessed through Assets/Scenes/Levels within the project's file path.
 
 Controls:
