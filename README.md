@@ -7,13 +7,13 @@ An archive of my final project for my studies at Raffles University's Diploma in
 
 [<img width="300" src="https://github.com/user-attachments/assets/8e0637f8-b7aa-4cb9-8ef1-099162744a9f">](https://jeremiah67.itch.io/steelmongers)
 
+Click down here to watch the gameplay!
+
+[<img src="https://github.com/user-attachments/assets/11b51a72-ec46-4c74-ad5a-b45ee79d05f5" width="500" height="300"
+/>](https://www.youtube.com/embed/zCvGOXacDqY)
+
 Screenshots:
 --------------
-[<img src="https://img.youtube.com/vi/APOPm01BVrk/hqdefault.jpg" width="600" height="300"
-/>](https://www.youtube.com/embed/APOPm01BVrk)
-Gameplay: https://youtu.be/zCvGOXacDqY
-
-
 <img width="200" src="https://github.com/user-attachments/assets/87b2296a-9cb1-4b20-8bcf-6c40d54bb347" />
 <img width="200" src="https://github.com/user-attachments/assets/44a83bce-ab02-4481-a8f9-8916e303f953" />
 <img width="200" src="https://github.com/user-attachments/assets/d39d78fc-a2ca-44ee-b62a-90d3d02dd094" />
@@ -24,12 +24,16 @@ Project Portfolio:
 --------------
 To anyone who prefers looking into visuals you may check out from this Behance page.
 
+[<img src="https://github.com/user-attachments/assets/8ba262b1-1287-4d63-aa9f-cb1085299ca7" width="300"
+/>](https://www.behance.net/gallery/247631621/SteelMongers)
+
 How to play through Unity's Editor:
 --------------
 - Original version: 2021.3.33f
 - Recommended version: Any Unity software above v2021.3 for security reasons.
   - This is because new versions of Unity are showing log errors that were not present in earlier versions for some reason.
-  - It is discovered that they were security exploits found in the v2021.3 versions.
+  - Security exploits are present in v2021.3 versions and below.
+  - Learn more here, https://unity.com/security/sept-2025-01
 * Open the "MainMenu" scene, this can be accessed through Assets/Scenes/Levels within the project's file path.
 
 Controls:
@@ -99,3 +103,5 @@ Tools used:
 Contact
 --------------
 If you need a Unity C# programmer or a Blender3D modeller, feel free to contact me at darccstars@protonmail.com!
+
+Visit my website for more news from me at https://darccstars.github.io/Portfolio/ !
