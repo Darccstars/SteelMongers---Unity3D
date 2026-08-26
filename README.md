@@ -22,7 +22,7 @@ Screenshots:
 
 Project Portfolio:
 --------------
-To anyone who prefers looking into visuals you may check out from this Behance page.
+You may check out on the process on how this game was made including additional content not present in this repo.
 
 [<img src="https://github.com/user-attachments/assets/8ba262b1-1287-4d63-aa9f-cb1085299ca7" width="300"
 />](https://www.behance.net/gallery/247631621/SteelMongers)
